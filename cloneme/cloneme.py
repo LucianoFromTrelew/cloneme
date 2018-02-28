@@ -1,5 +1,5 @@
-from parser import create_parser
-from repository.Repository import Repository
+from .parser import create_parser
+from .repository.Repository import Repository
 
 def main():
     parser = create_parser()
