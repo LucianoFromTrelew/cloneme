@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='cloneme',
-      version='0.1',
+      version='0.1.2',
       description='A git clone wrapper to make cloning repos easier',
       keywords='git clone wrapper',
       url='http://github.com/LucianoFromTrelew/cloneme',
@@ -16,4 +16,5 @@ setup(name='cloneme',
       entry_points={
           'console_scripts': ['cloneme=cloneme.cloneme:main'],
       },
+      include_package_data=True,
   )
