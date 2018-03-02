@@ -1,4 +1,7 @@
 # Created by https://www.gitignore.io/api/git,vim,linux,python
+#
+# ##slides
+slides/
 
 ### Git ###
 *.orig
